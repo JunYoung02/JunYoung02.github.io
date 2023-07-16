@@ -478,7 +478,7 @@ body {
    position: relative;
    display:flex;
    flex-direction: column;
-   padding-top:100px;;
+   padding-top:100px;
    background-color: #9fd5f4;
    z-index:0;
 }
@@ -586,4 +586,101 @@ body {
 .romanticisland-section .wayto-garden-island img{
    height:40px;
    width:auto;
+}
+
+/*GARDEN ISLAND*/
+.gardenisland-section{
+   min-height: 100vh;
+   position: relative;
+   padding-top:100px;
+   background-color: #FEF5E8;
+   z-index:0;
+}
+
+.gardenisland-section .gardenisland-title{
+   position:relative;
+}
+
+.gardenisland-section .gardenisland-title .island-title{
+   font-size:30px;
+   font-weight: 900;
+   -webkit-text-stroke: 1px #287e3a;
+   color:transparent;
+   margin-bottom:-30px;
+}
+
+.gardenisland-section .gardenisland-title .poolus-title{
+   color:#287E3A;
+   font-size:100px;
+   margin-bottom:0px;
+}
+
+.gardenisland-section .gardenisland-title .garden-cloud-1{
+   height:auto;
+   position:absolute;
+   width:155px;
+   z-index:-1;
+   left:0;
+   top:30px;
+}
+
+.gardenisland-section .gardenisland-title .garden-cloud-2{
+   height:auto;
+   position:absolute;
+   width:155px;
+   z-index:-1;
+   right:-35px;
+   top:150px;
+}
+
+.gardenisland-section .gardenisland-title .garden-cloud-3{
+   height:auto;
+   position:absolute;
+   width:155px;
+   z-index:-1;
+   left:-25px;
+   top:265px;
+}
+
+.gardenisland-section .gardenisland-title .garden-cloud-4{
+   height:auto;
+   position:absolute;
+   width:100px;
+   z-index:-1;
+   top:440px;
+   right:10px;
+}
+
+.gardenisland-section .section-description{
+   color:#287E3A;
+   font-size:15px;
+   margin-top:30px;
+}
+
+.gardenisland-section .gardenislandBtn{
+   margin-top:20px;
+   text-align:center;
+}
+
+.gardenisland-section .gardenislandBtn button{
+   color:#FEF5E8;
+   font-size:20px;
+   background-color:#287E3A;
+   padding:10px;
+   border:none;
+   border-radius: 10px;
+   font-family: SBAggroB;
+   margin-bottom:0px;
+   width:200px;
+}
+
+.gardenisland-section .gardenisland-img{
+   position:absolute;
+   bottom:0;
+   z-index:-1;
+}
+
+.gardenisland-section .gardenisland-img img{
+   height:auto;
+   max-width:100%;
 }
