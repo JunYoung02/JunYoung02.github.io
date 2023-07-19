@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.ddag_font{
+    font-family: "LOTTERIADDAG";
+}
+
+body {
+    background-color: #0f0f0f;   
+}
+
+.display-container{
+    box-shadow: 0 0 15px 0 hsla(0, 0%, 100%, .75);
+    max-width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    background-image: url(./artist_img/waterback.png);
+    background-size:cover;
+}
+
+.display-container .day-box{
+    display:flex;
+    text-align: center;
+    width:415px;
+    margin:0 auto;
+    background-image: url(./artist_img/waterback.png);
+}
+
+.display-container .day-box .day{
+    color:white;
+    font-size:30px; 
+    border-bottom:4px solid black;
+}
+
+.display-container .day-box .DayunAct{
+    border-bottom: 5px solid rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255, 0.8);
+}
+
+
+.display-container .day-box a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.artist_section{
+    padding-top:115;
+}
+
+.artist_section .image-1{
+    padding-top:20px;
+    size:300px;
+    position:relative;
+}
+.artist_section .image-1 img{
+    width:280px;
+    margin-left:20px;
+    margin-top:120px;
+    padding-bottom:50px;
+}
+
+.artist_section .image-1 p{
+    position: absolute;
+    font-size:40px;
+    bottom:30px;
+    right:30px;
+}
+
+.artist_section .name{
+    margin-bottom: 50px;
+    font-size:40px;
+    text-shadow: 2px 2px #6BC6DD;
+    
+}
+
+.artist_section .time{
+    font-size: 30px;
+    text-shadow: 2px 2px #6BC6DD;
+}
+
+.artist_section .image-2{
+    size:300px;
+    position:relative;
+}
+.artist_section .image-2 img{
+    width:280px;
+    margin-left:120px;
+    margin-top:120px;
+    padding-bottom:50px;
+
+}
+
+.artist_section .image-2 p{
+    position: absolute;
+    font-size:40px;
+    bottom:30px;
+    left:30px;
+}

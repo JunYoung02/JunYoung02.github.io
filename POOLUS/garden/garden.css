@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.isamanroo-font {
+    font-family: 'GongGothicMedium', sans-serif;
+}
+
+.anton-font {
+    font-family: 'Anton', sans-serif;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.sbaggro-font {
+    font-family: 'SBAggroB', sans-serif;
+}
+
+
+body{
+    background-color: #0f0f0f;
+    color:#287e3a;
+}
+
+.display-container{
+    box-shadow: 0 0 15px 0 hsla(0, 0%, 100%, .75);
+    max-width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    background-color: #fef5e8;
+}
+
+.boothMain .garden-title{
+    margin-top:20px;
+    margin-bottom:0px;
+    font-size:30px;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #287e3a;
+}
+
+.boothMain .name{
+    font-weight: 900;
+    font-size:100px;
+    margin-top:-30px;
+}
+
+.boothMain .boothlocation{
+    background-color: hsla(0, 0%, 100%, .6);
+    margin:20px auto;
+    font-size:18px;
+    padding:10px;
+    border-radius: 15px;
+    position:relative;
+    width:250px;
+}
+
+.boothImgsub{
+    font-size:14px;
+    font-weight: 700;
+}
+
+form label{
+    font-size:15px;
+}
+form p{
+    border: 2px solid #287e3a;
+    margin: 0 auto 20px;
+    width: 280px;
+}
+form p input{
+    background: none;
+    border:none;
+}
+
+.bi-search:before{
+    margin-top:5px;
+}
