@@ -86,3 +86,33 @@ form p input{
 .bi-search:before{
     margin-top:5px;
 }
+
+button{
+    background-color: transparent;
+    border:none;
+    width:300px;
+    margin-bottom: 20px;
+}
+
+button .booth-box{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.booth-box img{
+    border-radius: 15px 0 0 15px;
+    margin-right:10px;
+}
+
+button .booth-box .booth-info{
+    font-size:14px;
+    padding:10px;
+}
+
+.boothtitle{
+    font-size:14px;
+}
+
+.boothsub{
+    font-size: 12px;
+}
