@@ -39,6 +39,152 @@ body {
     position: relative;
 }
 
+.navbar {
+   padding: 1rem;
+}
+.logo {
+   margin-right: 220px;
+}
+.logo img {
+   width: 55px;
+}
+
+/* hamburger */
+
+.checkbox {
+   display: none;
+ }
+ 
+ .button {
+   position: absolute;
+   background-color: #6bc6dd;
+   height: 2.5rem;
+   width: 2.5rem;
+   border-radius: 10%;
+   z-index: 2000;
+   cursor: pointer;
+   margin-left: 275px;
+ }
+ 
+ .background {
+   height: 2.5rem;
+   width: 2.5rem;
+   border-radius: 50%;
+   background-color: #000000;
+   z-index: 1000;
+   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+ }
+ 
+ .nav {
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   right: -60vw;
+   z-index: 1500;
+   opacity: 0;
+   width: 0;
+   transition: all 0.8s;
+ }
+ 
+ .list {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   list-style: none;
+   text-align: center;
+   width: 100%;
+   padding-left: 0;
+ }
+ 
+ .item {
+   margin: 1rem;
+   font-size: 25px;
+ }
+ 
+
+.link, link:visited {
+   /* display: inline-block; */
+   font-size: 1.5rem;
+   font-weight: 300;
+   padding: 0rem 1rem;
+   color: #6bc6dd;
+   text-decoration: none;
+   background-size: 220%;
+   transition: all 0.4s;
+ }
+ 
+ .link:hover,
+ .link:active {
+   color: #ffffff;
+   cursor: pointer;
+ }
+ 
+ /* functionality */
+ .checkbox:checked ~ .background {
+   transform: scale(220);
+ }
+ .checkbox:checked ~ .nav {
+   opacity: 1;
+   width: 100%;
+   right: 0;
+ }
+ 
+ /*  */
+ /* styling hamb ICON */
+ .icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 
+ .icon,
+ .icon::before,
+ .icon::after {
+   width: 2rem;
+   height: 5px;
+   background-color: black;
+   display: inline-block;
+ }
+ 
+ .icon::before,
+ .icon::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   transition: all 0.2s;
+ }
+ 
+ .icon::before {
+   top: -0.8rem;
+ }
+ .icon::after {
+   top: 0.8rem;
+ }
+ 
+ .button:hover icon:before {
+   top: -1rem;
+ }
+ .button:hover icon::after {
+   top: 1rem;
+ }
+ 
+ .checkbox:checked + .button .icon {
+   background-color: transparent;
+ }
+ 
+ .checkbox:checked + .button .icon::before {
+   top: 0;
+   transform: rotate(135deg);
+ }
+ .checkbox:checked + .button .icon::after {
+   top: 0;
+   transform: rotate(-135deg);
+ }
+
+
+
 .main video{
     position:absolute;  
     top: 0;
